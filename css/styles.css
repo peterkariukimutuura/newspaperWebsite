@@ -215,7 +215,7 @@
 			margin-top: -5px;
 		}
 
-			section.container hr{
+	 hr#divide{
 	    width: 93%;
 	    margin: auto;
 	}
@@ -250,4 +250,31 @@
 	}
 	div#buttons img:hover{
 		 cursor: pointer;
+	}
+
+		section.daily_news{
+		padding: 20px;
+	}
+	div#holder{
+	}
+	div#quarter_one{
+    width: 20%;
+    float: left;
+    margin-right: 24px;
+    margin-left: 29px;
+    
+	}
+	div#quarter_one div{
+    border: 2px solid #000;
+    margin: 0px;
+    padding-left: 16px;	
+    height: 229px;	
+	}
+	li{
+		list-style: none;
+	}
+	section#footer{
+		display: inline-block;
+		text-align: center;
+		width: 100%;
 	}
