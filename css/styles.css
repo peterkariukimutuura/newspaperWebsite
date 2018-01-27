@@ -123,3 +123,72 @@
 		div#heading_titles div:hover{
 			    background-color: #c4d6c473;
 		}
+/*end*/
+		section.middle_content{
+		    padding-top: 2px;
+		    width: 96%;
+		    padding-left: 25px;
+		    padding-right: 15px;
+		    display: inline-flex;
+		}
+		div#top_stories_part h2{
+			margin-top: 0px;
+		}
+		div#top_stories_part{
+			width: 25%;
+		}
+		div#center_part{
+			width: 50%;
+		}
+		div#trends_videos{
+			width: 25%;
+		}
+		div#storyone img{
+			width: 190px;
+			margin: 0px auto;
+			height: 121px;			
+		}
+		div#storyone p{
+			margin-top: -5px;
+		}
+		div#storyone p#strong{
+			margin-bottom: 0px;
+			margin-top: 0px;
+		}
+		div#center_part{
+			background-color: #ede;
+		}
+		div#center_part hr{
+			width: 95%;
+		}
+		div#first_half img{
+			max-width: 100%;
+
+		}
+		div#first_half p{
+			text-align: center
+		}
+		div#story_two{
+			display: inline-flex;
+		}
+		div#paragragh{
+		    width: 90%;
+		    padding: 16px;
+		    padding-right: 0px;						
+		}
+		div#paragraph p{
+			padding-left: 15px;
+			padding-top: 10px;
+		}
+		div#img{
+			width: 30%;
+		    padding: 18px;
+		    padding-left: 0px
+		}
+		div#img img{
+			width: 100px;
+		}
+		div#trends_videos{
+			width: 25%;
+			padding-left: 7px;
+		}	
