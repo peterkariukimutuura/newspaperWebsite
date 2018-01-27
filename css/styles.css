@@ -82,3 +82,44 @@
 			background-color: #d2a1a1;
 		}
 		/*top most part done*/
+
+		/*second top*/
+	    div.content_one{
+			width: 80%;
+            margin: 0px auto;
+		}
+		div#heading h1{
+		    text-align: center;
+		    font-size: 35px;
+		    padding: 0px;
+		    margin: 10px;
+		    font-family: cursive;
+		    margin-bottom: 0px;			
+		}
+		div#date_top_stories{
+			width: 100%;
+			text-align: center;
+		}
+		div#date_top_stories small{
+			font-weight: bold;
+		}
+		hr#date_top_stories{
+			width: 100%;
+		}
+		div#heading_titles{
+		    width: 100%;
+		    padding: 3px;
+		    border: 2px solid #000;
+		    text-align: center;
+		    margin: 0px auto;
+            margin-left: 10px;
+		}
+		div#heading_titles div{
+			    display: inline-block;
+			    width: 11%;
+			    cursor: pointer;
+			    padding: 5px;
+		}
+		div#heading_titles div:hover{
+			    background-color: #c4d6c473;
+		}
