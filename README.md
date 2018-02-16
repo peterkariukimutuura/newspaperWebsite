@@ -1,5 +1,5 @@
 <p align="center">
-  **A website created with HTML & CSS**
+  A website created with HTML & CSS
 </p>
 
 ### Project Overview
@@ -36,5 +36,5 @@ Feel free to [**create an issue**](https://github.com/peterkariukimutuura/newspa
 
 2. Make changes on your fork. Can be done through GitHub Desktop or downloading files. Alternatively, Contact us!
 
-| https://peterkariukimutuura.github.io/ |
-| https://github.com/karna12 |
+- https://peterkariukimutuura.github.io/
+- https://github.com/karna12
