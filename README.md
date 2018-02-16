@@ -1,5 +1,5 @@
 <p align="center">
-  ## A website created with HTML & CSS
+  **A website created with HTML & CSS**
 </p>
 
 ### Project Overview
@@ -17,12 +17,14 @@
 
 This project is open to new ideas, designs and features. If you would like to contribute, raise an issue (see below). The project looks forward to future pull requests and any inquiries let us know!
 
-<!-- ALL-CONTRIBUTORS-LIST -->
+<!-- ALL-CONTRIBUTORS-LIST:START -->
+
 | Contributions | Name |
-
+| ----: | :---- |
 | [🔢](# "Content") | Peter Kariuki Mutuura |
-| [🔢📖](# "Content & Documentation") | Karna Patel | # https://github.com/karna12
+| [🔢📖](# "Content, Documentation") | Karna Patel |
 
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ### Problems?
 
@@ -34,5 +36,5 @@ Feel free to [**create an issue**](https://github.com/peterkariukimutuura/newspa
 
 2. Make changes on your fork. Can be done through GitHub Desktop or downloading files. Alternatively, Contact us!
 
-| ### https://peterkariukimutuura.github.io/ |
-| ### https://github.com/karna12 |
+| https://peterkariukimutuura.github.io/ |
+| https://github.com/karna12 |
