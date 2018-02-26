@@ -1,21 +1,22 @@
 <p align="center">
-  A website created with HTML & CSS
+  A website created with HTML, CSS & JS
 </p>
 
 ### Project Overview
 
-- A project which allows to create a website with HTML and CSS  
-- Website welcomes new innovations, ideas and coding languages to add some features for the site!
+- A project which allows to create a website with HTML, CSS, JS  
+- Website welcomes new innovations, ideas and with new coding languages (other than above) to add some features!
 
 ### Features to consider
 
- - Feedback section
+ - Give storage for feedback comments
  - Responsive for app & tablet view
+ - Accessibility
 
 
 ### Contributing
 
-This project is open to new ideas, designs and features. If you would like to contribute, raise an issue (see below). The project looks forward to future pull requests and any inquiries let us know!
+This project is open to new ideas, designs and features. If you would like to contribute, raise an issue (see below). The project looks forward to future pull requests. Any inquiries let us know!
 
 <!-- ALL-CONTRIBUTORS-LIST:START -->
 
@@ -28,13 +29,13 @@ This project is open to new ideas, designs and features. If you would like to co
 
 ### Problems?
 
-Feel free to [**create an issue**](https://github.com/peterkariukimutuura/newspaperWebsite/issues) when you have questions or would like to discuss.
+Feel free to [**create an issue**](https://github.com/peterkariukimutuura/newspaperWebsite/issues) for questions or would like to discuss.
 
-### Not sure how to?
+### Not sure how to contribute?
 
 1. You should **fork** repository using the <kbd>Fork</kbd> button on the top right, see [this guide](https://help.github.com/articles/fork-a-repo/#fork-an-example-repository).
 
-2. Make changes on your fork. Can be done through GitHub Desktop or downloading files. Alternatively, Contact us!
+2. Make changes on your fork. Can be done through GitHub Desktop or downloading files. Alternatively, contact us!
 
 - https://peterkariukimutuura.github.io/
 - https://github.com/karna12
