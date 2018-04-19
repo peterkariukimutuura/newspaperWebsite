@@ -12,6 +12,7 @@
  - Give storage for feedback comments
  - Responsive for app & tablet view
  - Accessibility
+ - Features
 
 
 ### Contributing
