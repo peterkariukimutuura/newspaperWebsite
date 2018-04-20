@@ -13,6 +13,7 @@
  - Responsive for app & tablet view
  - Accessibility
  - Features
+ - More content of your choice
 
 
 ### Contributing
@@ -25,6 +26,7 @@ This project is open to new ideas, designs and features. If you would like to co
 | ----: | :---- |
 | [🔢](# "Content") | Peter Kariuki Mutuura |
 | [🔢📖](# "Content, Documentation") | Karna Patel |
+| [🔢📖](# "Content") | Tevin Brown |
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
