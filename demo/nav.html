@@ -1,0 +1,301 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Newspaper Website</title>
+    
+    <link rel="shortcut icon" id="favicon" href="favicon.png">
+   
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="nav.js"></script>
+    <link href='style-nav.css' rel='stylesheet' type='text/css'>
+
+
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            background: #f3f3f3;
+            padding: 0;
+            text-align: center;
+            font-family: 'open sans';
+            position: relative;
+            margin: 0;
+            height: 100%;
+        }
+
+        .wrapper {
+            height: auto !important;
+            height: 100%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+
+        h1,
+        h2 {
+            width: 100%;
+            float: left;
+        }
+
+        h1 {
+            margin-top: 100px;
+            color: #6D461D;
+            margin-bottom: 5px;
+            font-size: 70px;
+            letter-spacing: -4px;
+        }
+
+        h2 {
+            color: #444;
+            font-weight: 100;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .pointer {
+            color: #9b59b6;
+            font-family: 'Pacifico', cursive;
+            font-size: 30px;
+            margin-top: 15px;
+        }
+
+        pre {
+            margin: 80px auto;
+        }
+
+        pre code {
+            padding: 35px;
+            border-radius: 5px;
+            font-size: 15px;
+            background: rgba(0, 0, 0, 0.1);
+            border: rgba(0, 0, 0, 0.05) 5px solid;
+            max-width: 500px;
+        }
+
+
+        .main {
+            float: left;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .main h1 {
+            padding: 20px 50px;
+            float: left;
+            width: 100%;
+            font-size: 90px;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            font-weight: 100;
+            color: black;
+            margin: 0;
+            margin-top: 70px;
+            font-family: 'Playfair Display';
+            letter-spacing: -1px;
+        }
+
+        .reload.bell {
+            font-size: 12px;
+            padding: 20px;
+            width: 45px;
+            text-align: center;
+            height: 47px;
+            border-radius: 50px;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+        }
+
+        .reload.bell #notification {
+            font-size: 25px;
+            line-height: 140%;
+        }
+
+        .reload,
+        .btn {
+            display: inline-block;
+            
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            
+            display: inline-block;
+            line-height: 100%;
+            padding: 0.7em;
+            text-decoration: none;
+            color: #fff;
+            width: 100px;
+            line-height: 140%;
+            font-size: 17px;
+            font-family: open sans;
+            font-weight: bold;
+        }
+
+        .btn {
+            width: 200px;
+            color: #fff;
+            border: none;
+            margin-left: 10px;
+            background: #000;
+        }
+
+        .clear {
+            width: auto;
+        }
+
+        .btn:hover,
+        .btn:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .btns {
+            width: 410px;
+            margin: 50px auto;
+        }
+
+        .page_container,
+        .other {
+            max-width: 800px;
+            margin: 50px auto;
+        }
+
+        .page_container h2,
+        .page_container h1,
+        .other h2,
+        .other h1 {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+            padding-bottom: 15px;
+        }
+
+        .page_container h2,
+        .page_container h3,
+        .other h3,
+        .other h2 {
+            text-align: left;
+        }
+
+        .page_container h2,
+        .page_container h1,
+        .page_container h3,
+        .other h2,
+        .other h1,
+        .other h3 {
+            color: black;
+        }
+
+        .page_container p,
+        .other p {
+            color: black;
+            font-size: 18px;
+            line-height: 180%;
+            text-align: left;
+        }
+
+        .page_container h2 {
+            font-size: 35px;
+        }
+
+        .header {
+            background: url(../demo/img/gray-background.jpg) repeat;
+            color: white;
+            overflow: hidden;
+        }
+
+        .header h1,
+        .header h2 {
+            font-family: 'open sans';
+            text-shadow: 0 2px 0 rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+
+        .header h2 {
+            font-weight: bold;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        .other h1 {
+            font-size: 46px;
+            margin-bottom: 20px;
+        }
+
+    </style>
+    <script>
+        $(document).ready(function() {
+            $(".page_container").jumpto({
+                firstLevel: "> h2",
+                secondLevel: "> h3"
+            });
+        });
+
+    </script>
+</head>
+    
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <div class="header">
+                <h1>Welcome</h1>
+                <h2>For sites' content & Features see below</h2>
+        
+                <div class="btns">
+                    <a class="reload btn" href="">Click here</a>
+                </div>
+            </div>
+            <div class="page_container">
+                <div class="jumpto-block">
+                    <p>Below are pages to what content is published, click on the image previews to have a look.</p>
+                </div>
+                
+                <div class="jumpto-block">
+                    <h2>Home</h2>
+                    <p>Latest news around the world</p>
+                    <a href=""><img src="../demo/img/home.jpg" title="Sites' home page" width="650" height="400" /></a>
+                </div>
+                
+                <div class="jumpto-block">
+                    <h2>UK</h2>
+                    <p>Latest news in the UK</p>
+                    <a href=""><img src="../demo/img/UK.jpg" title="Sites' UK page" width="650" height="400" /></a>
+                </div>
+                
+                <div class="jumpto-block">
+                    <h2>Business</h2>
+                    <p>Latest news for business</p>
+                    <a href=""><img src="../demo/img/Business.jpg" title="Sites' business page" width="660" height="400" /></a>
+                </div>
+                
+                <div class="jumpto-block">
+                    <h2>Tech</h2>
+                    <p>Latest news for tech</p>
+                    <a href=""><img src="../demo/img/Tech.jpg" title="Sites' tech page" width="660" height="400" /></a>
+                </div>
+                
+                <div class="jumpto-block">
+                    <h2>Sports</h2>
+                    <p>Latest news for sports</p>
+                    <a href=""><img src="../demo/img/Sports.jpg" title="Sites' sports page" width="660" height="400" /></a>
+                </div>
+                
+                <div class="jumpto-block">
+                    <h2>Contact</h2>
+                    <p>A page to allow for feedback</p>
+                    <a href=""><img src="../demo/img/Contact.jpg" title="Sites' contact page" width="660" height="400" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
