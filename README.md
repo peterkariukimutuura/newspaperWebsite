@@ -27,6 +27,7 @@ This project is open to new ideas, designs and features. If you would like to co
 | [🔢](# "Content") | Peter Kariuki Mutuura |
 | [🔢📖](# "Content, Documentation") | Karna Patel |
 | [🔢📖](# "Content") | Tevin Brown |
+| [🔢📖](# "Content") | Omar Hinds |
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
